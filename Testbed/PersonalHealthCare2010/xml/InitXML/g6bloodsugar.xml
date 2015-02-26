@@ -1,0 +1,45 @@
+<?xml version="1.0" standalone="yes" ?>
+<Msg>
+<Head>
+  <MsgID>20</MsgID> 
+  <Description>Create g6bloodsugar Component</Description> 
+  </Head>
+<Body>
+<Item>
+  <Key>Passcode</Key> 
+  <Value>****</Value> 
+  </Item>
+<Item>
+  <Key>SecurityLevel</Key> 
+  <Value>3</Value> 
+  </Item>
+<Item>
+  <Key>Name</Key> 
+  <Value>g6bloodsugar</Value> 
+  </Item>
+<Item>
+  <Key>SourceCode</Key> 
+  <Value>g6bloodsugar.java</Value> 
+  </Item>
+<Item>
+  <Key>InputMsgID 1</Key> 
+  <Value>41</Value> 
+  </Item>
+<Item>
+  <Key>InputMsgID 2</Key> 
+  <Value>160</Value> 
+  </Item>
+<Item>
+  <Key>InputMsgID 3</Key> 
+  <Value>45</Value> 
+  </Item>
+<Item>
+  <Key>OutputMsgID 1</Key> 
+  <Value>42</Value> 
+  </Item>
+<Item>
+  <Key>Component Description</Key> 
+  <Value> g6bloodsugar checks for abnormality. </Value> 
+  </Item>
+</Body>
+</Msg>

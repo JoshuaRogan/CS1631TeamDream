@@ -1,0 +1,12 @@
+<Msg>
+	<Head>
+		<MsgID>183</MsgID>
+		<Description>Recieve EKG Results</Description>
+	</Head>
+	<Body>
+		<Item><Key>HeartRate</Key><Value>Normal</Value></Item>
+		<Item><Key>Rhythm</Key><Value>Normal</Value></Item>
+		<Item><Key>QTLength</Key><Value>Normal</Value></Item>
+		<Item><Key>SourceComp</Key><Value>g8kb</Value></Item>
+	</Body>
+</Msg>

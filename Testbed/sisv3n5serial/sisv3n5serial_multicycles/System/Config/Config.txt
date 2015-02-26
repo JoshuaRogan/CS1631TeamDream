@@ -1,0 +1,80 @@
+$$ BEGIN and END are keywords. Lines start with $$, /* or // are comment lines.
+
+$$ SIS Cycles Specification
+
+BEGIN CycleList
+/*This section lists cycle names, create method and whether it is in initial round.*/
+/*The format is CycleName \t CreateMethod \t InitialRound. CreateMethod should be sequential or parallel*/
+Cycle1	sequential	true
+Cycle2	sequential	false
+END CycleList
+
+BEGIN CycleTestData Cycle1
+/*This section lists cycle Cycle1 test data.*/
+/*The format is TestData \t ResultData. ResultData could be empty or null.*/
+0 1 1 2 3 5	8 13 21 34 55 89
+END CycleTestData
+
+BEGIN CycleTestData Cycle2
+/*This section lists cycle Cycle2 test data.*/
+/*The format is TestData \t ResultData. ResultData could be empty or null.*/
+2 3 5 8 13 21	34 55 89 144 233 377
+END CycleTestData
+
+BEGIN CycleAlgorithm Cycle1
+/*This section lists cycle algorithm information.*/
+/*The format is AlgorithmName \t AlgorithmPath \t AlgorithmParameters.*/
+S1	Cycle1/S1/CreateCycle1_S1
+S2	Cycle1/S2/CreateCycle1_S2
+S3	Cycle1/S3/CreateCycle1_S3
+END CycleAlgorithm
+
+BEGIN CycleAlgorithm Cycle2
+/*This section lists cycle algorithm information.*/
+/*The format is AlgorithmName \t AlgorithmPath \t AlgorithmParameters.*/
+S1	Cycle2/S1/CreateCycle2_S1
+END CycleAlgorithm
+
+$$ SIS TimeController Specification
+
+BEGIN CycleSwitchMethod
+/*This section specify preferred cycle switch method. Value is rule or matrix.*/
+rule
+END CycleSwitchMethod
+
+BEGIN CycleSwitchRule rule1
+/*This section lists cycle switch rule rule1*/
+/*The format is VarName|CycleName \t Value \t Indicator.*/
+/*The Indicator value should be PrevVar, PrevCycle, NextVar, NextCycle*/
+Cycle1	true	PrevCycle
+Cycle2	false	PrevCycle
+Cycle1	false	NextCycle
+Cycle2	true	NextCycle
+END CycleSwitchRule
+
+BEGIN CycleSwitchRule rule2
+/*This section lists cycle switch rule rule2*/
+/*The format is VarName|CycleName \t Value \t Indicator.*/
+/*The Indicator value should be PrevVar, PrevCycle, NextVar, NextCycle*/
+Cycle1	false	PrevCycle
+Cycle2	true	PrevCycle
+Cycle1	false	NextCycle
+Cycle2	false	NextCycle
+END CycleSwitchRule
+
+$$ Other SIS System Specification
+
+BEGIN ConcurrentComps
+/*This section specify how many concurrent instances can be created for each algorithm.*/
+3
+END ConcurrentComps
+
+BEGIN SelectionRate
+/*This section specify the survival rate of algorithm instances after elimination.*/
+0.4
+END SelectionRate
+
+BEGIN SelectionCriteria
+/*This section specify how algorithm instances are eliminated. Value should be average, min or max.*/
+average
+END SelectionCriteria

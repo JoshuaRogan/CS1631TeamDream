@@ -1,0 +1,88 @@
+<?xml version="1.0" standalone="yes" ?>
+
+<HealthStatus>
+
+<AgeGroup>
+  <Description>Under Age 6</Description>
+  <Type>
+    <Description>Before Meals</Description>
+    <Min>100</Min>
+    <Max>180</Max>
+  </Type>
+  <Type>
+  <Description>Bedtime/overnight</Description>
+    <Min>110</Min>
+    <Max>200</Max>
+  </Type> 
+</AgeGroup>
+
+<AgeGroup>
+  <Description>Age 6 - 12</Description>
+  <Type>
+  <Description>Before Meals</Description>
+    <Min>90</Min>
+    <Max>180</Max>
+  </Type>
+  <Type>
+  <Description>Bedtime/overnight</Description>
+    <Min>100</Min>
+    <Max>180</Max>
+  </Type> 
+</AgeGroup>
+
+<AgeGroup>
+  <Description>Age 13 - 19</Description>
+  <Type>
+  <Description>Before Meals</Description>
+    <Min>90</Min>
+    <Max>130</Max>
+  </Type>
+  <Type>
+  <Description>Bedtime/overnight</Description>
+    <Min>90</Min>
+    <Max>150</Max>
+  </Type> 
+</AgeGroup>
+
+<AgeGroup>
+<Description>Adult</Description>
+  <Precondition>
+  <Description>Normal</Description>
+    <Type>
+    <Description>Before Meals</Description>
+      <Max>100</Max>
+    </Type>
+    <Type>
+    <Description>Bedtime/overnight</Description>
+      <Max>140</Max>
+    </Type>
+  </Precondition>
+
+  <Precondition>
+  <Description>Pre-Diabetic</Description>
+    <Type>
+    <Description>Before Meals</Description>
+      <Min>100</Min>
+      <Max>125</Max>
+    </Type>
+    <Type>
+    <Description>Bedtime/overnight</Description>
+      <Min>140</Min>
+      <Max>200</Max>
+    </Type>
+  </Precondition>
+
+  <Precondition>
+  <Description>Diabetic</Description>
+    <Type>
+    <Description>Before Meals</Description>
+      <Min>126</Min>
+    </Type>
+    <Type>
+    <Description>Bedtime/overnight</Description>
+      <Min>200</Min>
+    </Type>
+  </Precondition>
+</AgeGroup>
+
+</HealthStatus>

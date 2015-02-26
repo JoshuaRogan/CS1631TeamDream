@@ -126,7 +126,7 @@ class MsgEncoder
      		else
      			outMsg += delimiter + kvList.keyAt(i) + delimiter + kvList.valueAt(i);
 		}
-		//System.out.println(outMsg);
+		System.out.println(outMsg);
 		printOut.println(outMsg);
 	}
 }

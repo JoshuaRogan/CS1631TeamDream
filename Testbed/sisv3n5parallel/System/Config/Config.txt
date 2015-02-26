@@ -1,0 +1,92 @@
+$$ BEGIN and END are keywords. Lines start with $$, /* or // are comment lines.
+
+$$ SIS Cycles Specification
+
+BEGIN CycleList
+/*This section lists cycle names, create method and whether it is in initial round.*/
+/*The format is CycleName \t CreateMethod \t InitialRound. CreateMethod should be sequential or parallel*/
+Cycle1	parallel	true
+Cycle2	parallel	false
+END CycleList
+
+BEGIN CycleTestData Cycle1
+/*This section lists cycle Cycle1 test data.*/
+/*The format is TestData \t ResultData. ResultData could be empty or null.*/
+ORL
+Yale
+Chinese
+FERET
+END CycleTestData
+
+BEGIN CycleTestData Cycle2
+/*This section lists cycle Cycle2 test data.*/
+/*The format is TestData \t ResultData. ResultData could be empty or null.*/
+ORL
+Yale
+Chinese
+FERET
+END CycleTestData
+
+BEGIN CycleAlgorithm Cycle1
+/*This section lists cycle algorithm information.*/
+/*The format is AlgorithmName \t AlgorithmPath \t AlgorithmParameters.*/
+ICA	Cycle1/ICA/CreateCycle1_ICA	35 Result/ICA
+ICA	Cycle1/ICA/CreateCycle1_ICA	37 Result/ICA
+TON	Cycle1/TON/CreateCycle1_TON	0.89 Result/TON
+TON	Cycle1/TON/CreateCycle1_TON	0.9 Result/TON
+END CycleAlgorithm
+
+BEGIN CycleAlgorithm Cycle2
+/*This section lists cycle algorithm information.*/
+/*The format is AlgorithmName \t AlgorithmPath \t AlgorithmParameters.*/
+PCA	Cycle2/PCA/CreateCycle2_PCA	0.2 Result/PCA
+PCA	Cycle2/PCA/CreateCycle2_PCA	0.5 Result/PCA
+END CycleAlgorithm
+
+$$ SIS TimeController Specification
+
+BEGIN CycleSwitchMethod
+/*This section specify preferred cycle switch method. Value is rule or matrix.*/
+rule
+END CycleSwitchMethod
+
+BEGIN EnvironmentVars
+/*This section lists system environment variables*/
+/*The format is VariableName \t Value. Value may be empty or null, meaning default 0.*/
+ImageQuality	0.6
+END EnvironmentVars
+
+BEGIN CycleSwitchRule Rule1
+/*This section lists cycle switch rule Rule1*/
+/*The format is VarName|CycleName \t Value \t Indicator.*/
+/*The Indicator value should be PrevVar, PrevCycle, NextVar, NextCycle*/
+ImageQuality	>0.5	PrevVar
+Cycle1	true	PrevCycle
+Cycle2	false	PrevCycle
+Cycle1	false	NextCycle
+Cycle2	true	NextCycle
+END CycleSwitchRule
+
+BEGIN CycleSwitchMatrix
+/*This section lists TimeController's cycle switch matrix.*/
+0.0 0.0 
+0.0 0.0 
+
+END CycleSwitchMatrix
+
+$$ Other SIS System Specification
+
+BEGIN ConcurrentComps
+/*This section specify how many concurrent instances can be created for each algorithm.*/
+3
+END ConcurrentComps
+
+BEGIN SelectionRate
+/*This section specify the survival rate of algorithm instances after elimination.*/
+0.4
+END SelectionRate
+
+BEGIN SelectionCriteria
+/*This section specify how algorithm instances are eliminated. Value should be average, min or max.*/
+average
+END SelectionCriteria

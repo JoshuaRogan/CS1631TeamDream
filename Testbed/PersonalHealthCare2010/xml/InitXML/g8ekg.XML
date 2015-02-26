@@ -1,0 +1,22 @@
+<Msg>
+	<Head>
+		<MsgID>21</MsgID>
+		<Description>Create Group 8 EKG Monitor Component</Description> 
+	</Head>
+	<Body>
+		<Item><Key>Passcode</Key><Value>****</Value></Item>
+		<Item><Key>SecurityLevel</Key><Value>3</Value></Item>
+		<Item><Key>Name</Key><Value>g8ekg</Value></Item>
+		<Item><Key>SourceCode</Key><Value>g8ekg.java</Value></Item>
+		<Item><Key>InputMsgID 1</Key><Value>35</Value></Item>
+		<Item><Key>InputMsgID 2</Key><Value>45</Value></Item>
+		<Item><Key>InputMsgID 3</Key><Value>181</Value></Item>
+		<Item><Key>InputMsgID 4</Key><Value>183</Value></Item>
+		<Item><Key>OutputMsgID 1</Key><Value>23</Value></Item>
+		<Item><Key>OutputMsgID 2</Key><Value>26</Value></Item>
+		<Item><Key>OutputMsgID 3</Key><Value>36</Value></Item>
+		<Item><Key>OutputMsgID 4</Key><Value>182</Value></Item>
+		<Item><Key>Component Description</Key><Value>EKGMonitor checks for abnormality. There could be a knowledge base, but initially we just check if EKG reading is over *** to generate an alert.</Value></Item>
+		<Item><Key>KnowledgeBase</Key><Value>g8kb.java</Value></Item>
+	</Body>
+</Msg>

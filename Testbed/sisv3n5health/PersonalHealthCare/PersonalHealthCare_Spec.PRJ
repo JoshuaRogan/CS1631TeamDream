@@ -1,0 +1,139 @@
+0
+PersonalHealthCare
+COMPLIST
+SPO2Monitor
+EndName
+SPO2 data analysis result
+EndSending
+SPO2 data
+EndReceiving
+BloodSugarMonitor
+EndName
+BloodSugar data result analysis
+EndSending
+BloodSugar data
+EndReceiving
+BloodPressureMonitor
+EndName
+BloodPressure data analysis result
+EndSending
+BloodPressure data
+EndReceiving
+EKGMonitor
+EndName
+EKG data analysis result
+EndSending
+EKG data
+EndReceiving
+DataSender
+EndName
+SPO2 data
+BloodSugar data
+BloodPressure data
+EKG data
+EndSending
+Dummy Input
+EndReceiving
+ResultUploader
+EndName
+Dummy Output
+EndSending
+SPO2 data analysis result
+BloodSugar data result analysis
+BloodPressure data analysis result
+EKG data analysis result
+EndReceiving
+MSGLIST
+SPO2 data
+1001
+EndName
+SPO2Data
+EndAttrs
+DataSender
+EndSending
+SPO2Monitor
+EndReceiving
+SPO2 data analysis result
+1002
+EndName
+SPO2Data
+SPO2Result
+EndAttrs
+SPO2Monitor
+EndSending
+ResultUploader
+EndReceiving
+BloodSugar data result analysis
+1003
+EndName
+BloodSugarData
+BloodSugarResult
+EndAttrs
+BloodSugarMonitor
+EndSending
+ResultUploader
+EndReceiving
+BloodSugar data
+1004
+EndName
+BloodSugarData
+EndAttrs
+DataSender
+EndSending
+BloodSugarMonitor
+EndReceiving
+BloodPressure data analysis result
+1005
+EndName
+BloodPressureResult
+BloodPressureData
+EndAttrs
+BloodPressureMonitor
+EndSending
+ResultUploader
+EndReceiving
+BloodPressure data
+1006
+EndName
+BloodPressureData
+EndAttrs
+DataSender
+EndSending
+BloodPressureMonitor
+EndReceiving
+EKG data analysis result
+1007
+EndName
+EKGDataResult
+EKGData
+EndAttrs
+EKGMonitor
+EndSending
+ResultUploader
+EndReceiving
+EKG data
+1008
+EndName
+EKGData
+EndAttrs
+DataSender
+EndSending
+EKGMonitor
+EndReceiving
+Dummy Input
+1009
+EndName
+InputData
+EndAttrs
+EndSending
+DataSender
+EndReceiving
+Dummy Output
+1010
+EndName
+OutputData
+EndAttrs
+ResultUploader
+EndSending
+EndReceiving
+ENDSPEC

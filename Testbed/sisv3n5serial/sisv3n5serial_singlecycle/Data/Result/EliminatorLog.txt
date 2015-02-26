@@ -1,0 +1,29 @@
+Cycle Cycle1 Algorithm S1 running completed. Best algorithm instance is:
+Instance name: Cycle1_S1_1
+Parameters: null
+Input Test Data: 0 1 1 2 3 5
+Output Result: 8 13 21 34 55 89
+Result Evaluation: 0.0
+Runtime: 0.0
+Cycle Cycle1 Algorithm S2 running completed. Best algorithm instance is:
+Instance name: Cycle1_S2_1
+Parameters: null
+Input Test Data: 0 1 1 2 3 5
+Output Result: 78 28 18 32 90 19
+Result Evaluation: -106.1272820720478
+Runtime: 0.0
+Cycle Cycle1 Algorithm S3 running completed. Best algorithm instance is:
+Instance name: Cycle1_S3_1
+Parameters: null
+Input Test Data: 0 1 1 2 3 5
+Output Result: 6 7 8 9 10 11
+Result Evaluation: -94.56743625582752
+Runtime: 0.0
+Cycle Cycle1 running completed. Best algorithm is:
+Algorithm type: S1
+Instance name: Cycle1_S1_1
+Parameters: null
+Input Test Data: 0 1 1 2 3 5
+Output Result: 8 13 21 34 55 89
+Result Evaluation: 0.0
+Runtime: 0.0

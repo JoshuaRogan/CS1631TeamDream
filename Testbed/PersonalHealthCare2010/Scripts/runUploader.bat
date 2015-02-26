@@ -1,0 +1,1 @@
+start "DB Uploader" /D".." java -cp lib\jtds-1.2.5.jar;System; uploader.DBUploader

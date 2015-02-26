@@ -1,0 +1,17 @@
+<?xml version="1.0" standalone="yes" ?> 
+<Msg>
+<Head>
+  <MsgID>41</MsgID> 
+  <Description>Blood Sugar Reading</Description> 
+  </Head>
+<Body>
+<Item>
+  <Key>Blood Sugar</Key> 
+  <Value>143</Value> 
+  </Item>
+<Item>
+  <Key>DateTime</Key> 
+  <Value>Sat Feb 27 18:10:20 EST 2010</Value> 
+  </Item>
+  </Body>
+  </Msg>

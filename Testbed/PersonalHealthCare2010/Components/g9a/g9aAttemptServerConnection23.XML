@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="yes" ?> 
+<Msg>
+	<Head>
+		<MsgID>23</MsgID>
+		<Description>GeneralHealth Monitor</Description>
+	</Head>
+	<Body>
+		<Item>
+			<Key>Passcode</Key>
+			<Value>****</Value>
+		</Item>
+		<Item>
+			<Key>SecurityLevel</Key>
+			<Value>3</Value>
+		</Item>
+		<Item>
+			<Key>Name</Key>
+			<Value>GeneralHealth Monitor</Value>
+		</Item>
+		
+	</Body>
+</Msg>

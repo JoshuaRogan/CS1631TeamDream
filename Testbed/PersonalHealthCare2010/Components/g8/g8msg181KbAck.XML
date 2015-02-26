@@ -1,0 +1,11 @@
+<Msg>
+	<Head>
+		<MsgID>181</MsgID>
+		<Description>Create EKG Knowledge Base Acknowledge</Description>
+	</Head>
+	<Body>
+		<Item><Key>AckMsgID</Key><Value>21</Value></Item>
+		<Item><Key>Activated</Key><Value>True</Value></Item>
+		<Item><Key>Name</Key><Value>g8kb</Value></Item>
+	</Body>
+</Msg>
