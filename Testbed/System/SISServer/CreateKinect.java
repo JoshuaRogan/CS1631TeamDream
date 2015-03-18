@@ -126,6 +126,26 @@ public class CreateKinect
 		/*************************************************
 		Below are system messages. No modification required.
 		*************************************************/
+			
+		case 43:
+			
+			//Detect 
+			int responseId = Integer.parseInt(kvList.getValue("value").charAt(0));
+			System.out.println(responseId);
+
+
+			if(responseId == 1){
+				//Guy Fell
+			}
+			else if(responseId == 2){
+				//No Fall 
+			}
+			else if(responeId == 3){
+				//No Movement
+			}
+
+			break;
+
 		case 26:
 			System.out.println("Connect to SISServer successful.");
 			break;
