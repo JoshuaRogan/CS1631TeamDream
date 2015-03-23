@@ -1,6 +1,0 @@
-sisv3n5health\xml\InitXML\CreateSPO2Monitor.XML
-sisv3n5health\xml\InitXML\CreateBloodSugarMonitor.XML
-sisv3n5health\xml\InitXML\CreateBloodPressureMonitor.XML
-sisv3n5health\xml\InitXML\CreateEKGMonitor.XML
-sisv3n5health\xml\InitXML\CreateDataSender.XML
-sisv3n5health\xml\InitXML\CreateResultUploader.XML

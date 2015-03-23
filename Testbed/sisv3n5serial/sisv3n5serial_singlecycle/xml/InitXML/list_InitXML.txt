@@ -1,5 +1,0 @@
-sisv3n5serial\sisv3n5serial_singlecycle\xml\InitXML\CreateEnumerator.XML
-sisv3n5serial\sisv3n5serial_singlecycle\xml\InitXML\CreateDataSender.XML
-sisv3n5serial\sisv3n5serial_singlecycle\xml\InitXML\CreateVerifier.XML
-sisv3n5serial\sisv3n5serial_singlecycle\xml\InitXML\CreateTimeController.XML
-sisv3n5serial\sisv3n5serial_singlecycle\xml\InitXML\CreateEliminator.XML

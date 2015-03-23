@@ -1,0 +1,8 @@
+C:\Users\Josh\OneDrive\Git\CS1631TeamDream\ConnectPaceTech\PersonalHealthcare2014_v5\PersonalHealthcare2014\xml\InitXML\CreateSPO2.XML
+C:\Users\Josh\OneDrive\Git\CS1631TeamDream\ConnectPaceTech\PersonalHealthcare2014_v5\PersonalHealthcare2014\xml\InitXML\CreateUpLoader.XML
+C:\Users\Josh\OneDrive\Git\CS1631TeamDream\ConnectPaceTech\PersonalHealthcare2014_v5\PersonalHealthcare2014\xml\InitXML\CreateBloodPressure.XML
+C:\Users\Josh\OneDrive\Git\CS1631TeamDream\ConnectPaceTech\PersonalHealthcare2014_v5\PersonalHealthcare2014\xml\InitXML\CreateGUI.XML
+C:\Users\Josh\OneDrive\Git\CS1631TeamDream\ConnectPaceTech\PersonalHealthcare2014_v5\PersonalHealthcare2014\xml\InitXML\CreateEKG.XML
+C:\Users\Josh\OneDrive\Git\CS1631TeamDream\ConnectPaceTech\PersonalHealthcare2014_v5\PersonalHealthcare2014\xml\InitXML\CreateKinnectSensor.XML
+C:\Users\Josh\OneDrive\Git\CS1631TeamDream\ConnectPaceTech\PersonalHealthcare2014_v5\PersonalHealthcare2014\xml\InitXML\CreateInputProcessor.XML
+C:\Users\Josh\OneDrive\Git\CS1631TeamDream\ConnectPaceTech\PersonalHealthcare2014_v5\PersonalHealthcare2014\xml\InitXML\CreateTemp.XML
